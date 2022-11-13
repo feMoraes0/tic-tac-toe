@@ -1,6 +1,11 @@
 {
   "name": "tic-tac-toe",
   "version": "0.1.0",
+  "description": "Tic-Tac-Toe multiplayer peer-to-peer game",
+  "author": {
+    "name": "Fernando de Moraes Lopes",
+    "email": "fernandomoraes.lopes@gmail.com"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -35,5 +40,9 @@
     "sass-loader": "^12.0.0",
     "ts-jest": "^27.0.4",
     "typescript": "~4.5.5"
+  },
+  "engines": {
+    "node": ">=18.12",
+    "npm": ">=8.19"
   }
 }
